@@ -1,0 +1,12 @@
+{
+    "166afae48f0": {
+        "path": "..\\resource\\sceneSkins\\beginScene.ts",
+        "class": "beginScene",
+        "parentPath": ""
+    },
+    "166afaeb303": {
+        "path": "..\\resource\\sceneSkins\\gameScene.ts",
+        "class": "gameScene",
+        "parentPath": ""
+    }
+}

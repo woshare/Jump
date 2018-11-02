@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="beginSceneSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" >
+	<w:Declarations>
+		<tween:TweenGroup id="test">
+			<tween:TweenItem target="{image}">
+				<tween:Set/>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object scaleX="{0.6}" scaleY="{0.6}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object x="{356}" y="{248}" scaleX="{0.6}" scaleY="{0.6}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object x="{480}" y="{340}" scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="166afae48f0" ></w:Config>
+	<e:Image source="bg_jpg" x="0" y="0"/>
+	<e:Label id="title" text="just jump up and down" x="160" y="158"/>
+	<e:Image id="image" source="piece_png" x="280" y="340"/>
+	<e:Button id="beginBtn" x="160" y="830" anchorOffsetX="0" width="342">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="start_btn_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>
